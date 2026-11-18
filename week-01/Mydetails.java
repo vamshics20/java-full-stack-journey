@@ -2,7 +2,7 @@ public class Mydetails{
     public static void main (String[] args){
         String name = "Vamshi Lankala";
         int age = 24;
-          long phone = 9121196325L;
+          long phone = 9876543210L;
           float Weight = 76.6f;
           char grade = 'A';
           boolean isFinalYearPass = true;
