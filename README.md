@@ -1,18 +1,19 @@
 # ☕ Java Full Stack Journey
 
-My daily learning log on the way to becoming a **Java Full Stack Developer** — from Core Java to deployed full stack apps.
+My daily learning log on the way to becoming a **Java Full Stack Developer with AI** — from Core Java to deployed full stack and AI apps.
 
 **Started:** 15 Nov 2026 · **Target:** job-ready by May 2027
 
 ## 🗺️ Roadmap
 
-| Phase | Months | Topics | Status |
+| Phase | Dates | Topics | Status |
 |---|---|---|---|
-| 1 | Nov – Dec 2026 | Core Java, OOP, Collections, Exceptions | 🟢 In progress |
-| 2 | Jan 2027 | SQL, JDBC, Git | ⚪ Upcoming |
-| 3 | Feb – Mar 2027 | Spring Boot, REST APIs, Spring Data JPA | ⚪ Upcoming |
-| 4 | Mar – Apr 2027 | Spring AI, React, full stack integration | ⚪ Upcoming |
-| 5 | Apr – May 2027 | Capstone project, deployment, DSA, interview prep | ⚪ Upcoming |
+| 1 | 15 Nov – 17 Dec 2026 | Core Java basics: operators, input, conditions, loops, methods, arrays, Strings, Git | 🟢 In progress |
+| 2 | 18 Dec 2026 – 21 Jan 2027 | OOP, exceptions, collections, lambdas, streams | ⚪ Upcoming |
+| 3 | 22 Jan – 22 Feb 2027 | SQL (MySQL), JDBC, Maven, Git, DSA fundamentals | ⚪ Upcoming |
+| 4 | 23 Feb – 22 Mar 2027 | Spring Boot, REST APIs, Spring Data JPA, JWT security, testing | ⚪ Upcoming |
+| 5 | 23 Mar – 20 Apr 2027 | HTML, CSS, JavaScript, React, deployment, Docker | ⚪ Upcoming |
+| 6 | 21 Apr – 15 May 2027 | Spring AI, RAG, AI project, interview prep | ⚪ Upcoming |
 
 ## 📁 Structure
 
@@ -22,7 +23,7 @@ Code is organised by week: `week-01/`, `week-02/`, … Each file is one day's pr
 
 | Week | Dates | What I learned |
 |---|---|---|
-| 1 | 15 – 21 Nov 2026 | Day 1: how Java works (JDK, JRE, JVM, javac, bytecode), setup, first programs · Day 2: variables and the 8 primitive data types |
+| 1 | 15 – 21 Nov 2026 | Day 1: how Java works (JDK, JRE, JVM, javac, bytecode), setup, first programs · Day 2: variables and the 8 primitive data types · Day 3: arithmetic operators |
 
 ### Day 1 — 15 Nov 2026
 
@@ -44,12 +45,26 @@ Code is organised by week: `week-01/`, `week-02/`, … Each file is one day's pr
 - Java runs top to bottom, so a variable's value depends on where it is read
 - The 8 primitive types: `byte`, `short`, `int`, `long`, `float`, `double`, `char`, `boolean`; `String` is a class, not a primitive
 - Literal rules: `char` uses single quotes, `String` double quotes, `long` needs `L`, `float` needs `f`
-- Primitives (`long`, `float`) vs wrapper classes (`Long`, `Float`); camelCase naming
+- Primitives (`long`, `float`) vs wrapper classes (`Long`, `Float`); camelCase naming; `float` vs `double` precision
 
 **Practised**
 - `Box.java`: printing a variable vs a text literal, reassigning values
 - `Mydetails.java`: one variable of each common type, joined into output with `+`
 - Broke code on purpose and read the errors: `integer number too large`, `incompatible types: String cannot be converted to int`, `incompatible types: String cannot be converted to char`
+
+### Day 3 — 19 Nov 2026
+
+**Learned**
+- Arithmetic operators: `+ - * / %`
+- Integer division: `int / int` drops the decimal part (`17 / 5` is `3`); use a `double` to keep decimals
+- `%` gives the remainder: even/odd check with `n % 2 == 0`; `n % 10` is the last digit, `n / 10` removes it
+- Order of operations: `* / %` before `+ -`; brackets first
+- `+` after text joins instead of adding (`"Total: " + 4 + 6` prints `Total: 46`)
+- Doubles can't store every decimal exactly (`1.2999999999999998`), so never compare doubles with `==`
+
+**Practised**
+- `Calculator.java`: every operator with `int` and `double` values, predicted before running
+- `EvenOdd.java`: printing `n % 2 == 0` as `true`/`false`
 
 **Code:** [`week-01/`](week-01/)
 
