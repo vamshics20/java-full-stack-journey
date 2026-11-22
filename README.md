@@ -66,6 +66,21 @@ Code is organised by week: `week-01/`, `week-02/`, … Each file is one day's pr
 - `Calculator.java`: every operator with `int` and `double` values, predicted before running
 - `EvenOdd.java`: printing `n % 2 == 0` as `true`/`false`
 
+
+- ### Day 4 – Comparison, logical, ++/-- and shorthand (20 Nov)
+- `==` vs `.equals()`, `&&` `||` `!`, short-circuit evaluation
+- Pre vs post increment (locked-box method), `+=` `-=` `*=` `/=` `%=`
+- Programs: Operators, Increment, Eligibility, Counter, ATM, Marks, DaySplit, ComparisonOperators, LogicalOperators
+
+### Day 5 – Type casting (21 Nov)
+- Widening (automatic) vs narrowing (manual `(type)`), char ↔ int codes
+- Fixing integer division with `(double) a / b`
+- Program: CastPractice
+
+### Sunday revision (22 Nov)
+- Full Days 1–5 revision: 80+ predict-the-output questions, logic drills
+- Story → table → code method for word problems
+
 **Code:** [`week-01/`](week-01/)
 
 ---
