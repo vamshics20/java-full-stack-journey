@@ -81,6 +81,12 @@ Code is organised by week: `week-01/`, `week-02/`, … Each file is one day's pr
 - Full Days 1–5 revision: 80+ predict-the-output questions, logic drills
 - Story → table → code method for word problems
 
+### Day 6 – User input with Scanner (22 Nov 2026)
+- `import java.util.Scanner;` and `new Scanner(System.in)`
+- `nextInt()`, `nextDouble()`, `next()`, `nextLine()`, `nextBoolean()`, `next().charAt(0)`
+- The `nextLine()` trap after reading numbers, and how to avoid it
+- `print` for prompts, `println` for results
+- Programs: `Hey`, `BioData`
 **Code:** [`week-01/`](week-01/)
 
 ---
