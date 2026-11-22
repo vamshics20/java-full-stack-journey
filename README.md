@@ -67,7 +67,7 @@ Code is organised by week: `week-01/`, `week-02/`, … Each file is one day's pr
 - `EvenOdd.java`: printing `n % 2 == 0` as `true`/`false`
 
 
-- ### Day 4 – Comparison, logical, ++/-- and shorthand (20 Nov)
+### Day 4 – Comparison, logical, ++/-- and shorthand (20 Nov)
 - `==` vs `.equals()`, `&&` `||` `!`, short-circuit evaluation
 - Pre vs post increment (locked-box method), `+=` `-=` `*=` `/=` `%=`
 - Programs: Operators, Increment, Eligibility, Counter, ATM, Marks, DaySplit, ComparisonOperators, LogicalOperators
