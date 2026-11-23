@@ -87,6 +87,14 @@ Code is organised by week: `week-01/`, `week-02/`, … Each file is one day's pr
 - The `nextLine()` trap after reading numbers, and how to avoid it
 - `print` for prompts, `println` for results
 - Programs: `Hey`, `BioData`
+ ### Day 7 – if / else / else-if (23 Nov 2026)
+- `if` runs a block only when the condition is true; `if-else` picks one of two
+- `else if` chains: checked top to bottom, only the first true block runs — strictest condition first
+- Common traps: `;` right after `if (...)`, `=` vs `==`, Strings need `.equals()`
+- Code placement: a line for one branch goes inside its `{ }`; a line for everyone goes after the closing `}`
+- Testing both branches and boundary values (0, 100, 90, 75, 50)
+- Programs: `IfDemo`, `VoteCheck`, `EvenOdd2`, `Grade`
+- 
 **Code:** [`week-01/`](week-01/)
 
 ---
