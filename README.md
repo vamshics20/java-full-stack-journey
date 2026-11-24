@@ -94,6 +94,28 @@ Code is organised by week: `week-01/`, `week-02/`, … Each file is one day's pr
 - Code placement: a line for one branch goes inside its `{ }`; a line for everyone goes after the closing `}`
 - Testing both branches and boundary values (0, 100, 90, 75, 50)
 - Programs: `IfDemo`, `VoteCheck`, `EvenOdd2`, `Grade`
+  ### Day 8 – Nested if, Ternary Operator, Leap Year
+
+**What I learned**
+- **Nested if**: an if inside another if. The inner check runs only when the outer check is true.
+- **Largest of 3 numbers**: solved two ways, with nested if and with `&&` + else-if.
+- **Ternary operator**: a one-line if/else that returns a value.
+  `String result = (num % 2 == 0) ? "EVEN" : "ODD";`
+- **Leap year rule**: divisible by 4 and not by 100, or divisible by 400.
+  `(year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)`
+
+**Programs**
+| Program | Concept |
+|---|---|
+| Largest3.java | `&&` with if / else-if / else |
+| LeapYear.java | combined conditions with `&&` and `\|\|` |
+| LeapYearBonus.java | leap year check in one ternary line |
+
+**Key lessons**
+- One answer needs one chain (if → else if → else), not separate ifs.
+- The value being tested goes on the left of both comparisons: `a >= b && a >= c`.
+- Ternary is best for short conditions; use if/else when the condition is long.
+- Always test edge cases (1900 and 2000 for leap year).
 - 
 **Code:** [`week-01/`](week-01/)
 
