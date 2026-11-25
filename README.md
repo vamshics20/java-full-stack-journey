@@ -116,7 +116,28 @@ Code is organised by week: `week-01/`, `week-02/`, … Each file is one day's pr
 - The value being tested goes on the left of both comparisons: `a >= b && a >= c`.
 - Ternary is best for short conditions; use if/else when the condition is long.
 - Always test edge cases (1900 and 2000 for leap year).
-- 
+### Day 9 – switch Statement
+
+**What I learned**
+- **switch** compares one variable with exact values and jumps to the matching case.
+- **break** stops the switch. Without it, code falls through into the next cases.
+- **default** runs when no case matches (like the last else).
+- **Grouped cases** share one block: `case 1, 3, 5, 7, 8, 10, 12:`
+- An **if/else can go inside a case** (divide-by-zero check, leap year check).
+- switch works only with exact values (int, char, String), not ranges like `>=`.
+
+**Programs**
+| Program | Concept |
+|---|---|
+| WeekDays.java | basic switch with default |
+| SwitchCalculator.java | switch on char + if/else inside a case |
+| VowelCheck.java | grouped char cases (small and capital letters) |
+| MonthDays.java | grouped cases + leap year check inside case 2 |
+
+**Key lessons**
+- A missing break caused fall-through in MonthDays (it printed INVALID MONTH too). Fixed by adding break.
+- 'E' and 'e' are different chars in Java.
+- Code that must always run (sc.close) goes outside the switch.
 **Code:** [`week-01/`](week-01/)
 
 ---
